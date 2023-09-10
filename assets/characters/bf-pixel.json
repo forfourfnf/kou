@@ -1,122 +1,155 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				7,
-				0
+				17,
+				-95
 			],
+			"loop": false,
 			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "BF IDLE"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
 			"anim": "singLEFTmiss",
-			"fps": 24,
-			"name": "BF LEFT MISS",
-			"indices": []
+			"indices": [],
+			"name": "KOU NOTE LEFT MISS"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				0
+				-15,
+				-61
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "BF LEFT NOTE",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "KOU NOTE DOWN MISS"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				0
+				-19,
+				-48
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singUPmiss",
-			"fps": 24,
-			"name": "BF UP MISS",
-			"indices": []
+			"indices": [],
+			"name": "KOU NOTE UP MISS"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				0
+				-53,
+				-49
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "BF UP NOTE",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "BF RIGHT NOTE",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
 			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "KOU NOTE RIGHT MISS"
+		},
+		{
+			"offsets": [
+				33,
+				-36
+			],
+			"loop": false,
 			"fps": 24,
-			"name": "BF RIGHT MISS",
-			"indices": []
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "KOU dies"
+		},
+		{
+			"offsets": [
+				18,
+				-37
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "KOU Dead confirm"
+		},
+		{
+			"offsets": [
+				18,
+				-37
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "KOU Dead confirm"
 		},
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				-16,
+				-59
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "BF DOWN NOTE",
+			"name": "KOU DOWN",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				-21,
+				-49
 			],
-			"anim": "singDOWNmiss",
+			"anim": "singUP",
 			"fps": 24,
-			"name": "BF DOWN MISS",
+			"name": "KOU UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-53,
+				-49
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "KOU RIGHT",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-41,
+				-40
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "KOU idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				-94
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "KOU LEFT",
 			"indices": []
 		}
 	],
-	"no_antialiasing": true,
+	"no_antialiasing": false,
 	"image": "characters/bfPixel",
 	"position": [
-		0,
-		350
+		30,
+		225
 	],
-	"healthicon": "bf-pixel",
+	"healthicon": "dad",
 	"flip_x": true,
 	"healthbar_colors": [
-		123,
-		214,
-		246
+		49,
+		176,
+		209
 	],
 	"camera_position": [
-		50,
-		-60
+		0,
+		0
 	],
 	"sing_duration": 4,
-	"scale": 6
+	"scale": 1
 }
