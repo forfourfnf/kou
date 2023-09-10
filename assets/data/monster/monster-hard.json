@@ -7430,7 +7430,7 @@
 		],
 		"player3": "gf-pixel",
 		"song": "Monster",
-		"stage": "philly",
+		"stage": "stage",
 		"needsVoices": true,
 		"validScore": true,
 		"speed": 2.5,
