@@ -1,11 +1,10 @@
 {
-	
+	"idle_anim": "Kou Black Lines",
 	"image": "Menu_Dad",
 	"position": [
-		0,
-		0
+		50,
+		77
 	],
-	"scale": 1,
-	"idle_anim": "M Dad Idle",
+	"scale": 0.8,
 	"confirm_anim": "M Dad Idle"
 }
